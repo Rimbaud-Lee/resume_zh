@@ -6,7 +6,7 @@ favicon: images/favicon.ico # Directory of your favicon (eg. images/favicon.ico)
 version: 2
 
 # Personal info
-name: \**李朗**
+name: **李朗**
 title: 东北财经大学
 email: rimbaud-lee@foxmail.com
 # email_title: Email (Email title override)
@@ -79,11 +79,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           在大学期间，我打下了扎实的经济与会计学基础，获得了丰富的实习经历与学生工作经验，以及较强的数据分析能力以及数理与量化编程能力，可以熟练使用<mark>Python</mark>、<mark>SPSS</mark>等编程及数据处理工具。在大学生活中，我也逐渐学习了如何平衡工作和生活，因此我也很享受我的大学时光。
           
-          - *审计学 98*
-          - *资本市场与会计 90*
-          - *商务统计 92*
-          - *数据处理与程序设计 93*
-          - *微观经济学 92*
+          - *审计学  98*
+          - *资本市场与会计  90*
+          - *商务统计  92*
+          - *数据处理与程序设计  93*
+          - *微观经济学  92*
 
 
   - title: 实习经历
@@ -148,7 +148,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          OCR-pro 是一个用 <mark>Python</mark> 编写的实用向脚本程序，用于对图片版 PDF 进行批量化的局部 OCR 识别，并创建 Excel 表格，将所识别内容进行分组和填充。
+          OCR-pro 是一个用 Python 编写的实用向脚本程序，用于对图片版 PDF 进行批量化的局部 OCR 识别，并创建 Excel 表格，将所识别内容进行分组和填充。
         description: | # this will include new lines to allow paragraphs
           该脚本程序使用 <mark>Python</mark> 语言编写，不仅是因为 <mark>Python</mark> 语法简单以及程序逻辑清晰，更是因为它有很多的第三方库可供调用，以促成程序的实现。比如 <mark>PyMuPDF</mark> 库可用于将图像 PDF 转换为图片格式，<mark>PIL</mark> 库可以实现图片的灰度化，<mark>OpenCV</mark> 可对图片进行特定区域裁剪，<mark>PyTesseract</mark> 库可用于文本识别等。
 
@@ -166,7 +166,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          一个精美的静态个人主页网站。由 <mark>Hexo</mark> 和 <mark>GitHub Page</mark> 提供框架。
+          一个精美的静态个人主页网站。由 Hexo 和 GitHub Page 提供框架。
         description: | # this will include new lines to allow paragraphs
           - 将 <mark>Github</mark> 作为网站部署与代码托管平台，通过基于 <mark>Node.js</mark> 的 <mark>Hexo</mark> 框架搭建网站；
           - 将 <mark>LeanCloud</mark>、<mark>MongoDB</mark> 作为后端管理平台，进行数据整理与网站维护；
@@ -177,7 +177,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 东北财经大学“母校行”志愿活动
+        title: 东财“母校行”志愿活动
         sub_title: 志愿组成员
         caption: 2019.11 - 2020.03
         # quote: >
@@ -188,7 +188,7 @@ content:
           - 活动吸引逾 1000 名同学参加。
 
       - layout: left
-        title: 东北财经大学 Showtime 网站
+        title: 东财 Showtime 网站
         sub_title: 网络宣传部干事
         caption: 2019.09 - 2020.07
         # quote: >
@@ -209,7 +209,7 @@ content:
           - 参与策划“书友会”活动三场，通过与校团委沟通协调，取得活动场地使用权，促成“书友会”的圆满举办。
 
       - layout: left
-        title: 东北财经大学乒乓球协会
+        title: 东财乒协
         sub_title: 组织部干事
         caption: 2019.09 - 2020.06
         # quote: >
