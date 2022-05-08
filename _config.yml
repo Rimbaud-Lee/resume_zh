@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: Rimbaud-Lee/resume_zh # Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+favicon: images/favicon.ico # Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 李朗
+title: 东北财经大学
+email: rimbaud-lee@foxmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: (+86) 155-4164-1118
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://rimbaud-lee.github.io/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username: Rimbaud-Lee
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: rimbaud_lee
+linkedin_username: 朗-李-8160451aa
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: Weibo
+  icon: fab fa-weibo
+  url: https://weibo.com/7190384565
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,69 +50,187 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  大家好，我叫李朗，是一个阳光开朗、随和向上的大男孩。就读于东北财经大学会计学专业，大三在读。目前着手于时间序列预测和图挖掘方向的科研。
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  在学习和工作生活中，我拥有突出的沟通及人际交往能力，具备高度的责任感以及进取心。同时，我对知识充满了好奇心，因为对新知识的学习可以让自己感到充实；在新的环境中，相对于挑战，我更多看到的是机会。
+
+  - *GPA: 3.61*
+  - *ACCA: 4/13*
+  - *CET-6: 533*
+  - *<mark>MS Office</mark>, <mark>Python</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>C#</mark>*
+  - *机器学习, 神经网络, 时序预测, 图挖掘*
+  - *IELT: 准备中...*
+  - *GMAT: 准备中...*
+
 
 content:
-  - title: Projects # Title for the section
+  - title: 教育背景
+    layout: list
+    content:
+      - layout: left
+        title: 东北财经大学
+        sub_title: 会计学
+        caption: 2019 - 2023
+        link: https://www.dufe.edu.cn/
+        # quote: >
+          # Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          在大学期间，我打下了扎实的经济与会计学基础，获得了丰富的实习经历与学生工作经验，以及较强的数据分析能力以及数理与量化编程能力，可以熟练使用<mark>Python</mark>、<mark>SPSS</mark>等编程及数据处理工具。在大学生活中，我也逐渐学习了如何平衡工作和生活，因此我也很享受我的大学时光。
+          
+          - *审计学 98*
+          - *资本市场与会计 90*
+          - *商务统计 92*
+          - *数据处理与程序设计 93*
+          - *微观经济学 92*
+
+
+  - title: 实习经历
+    layout: list
+    content:
+      - layout: top # left
+        border: weak  
+        title: 安永华明会计师事务所（特殊普通合伙）
+        sub_title: 审计实习生 | 北京金融服务部
+        caption: 2022.01 - 2022.03
+        link: https://www.ey.com/zh_cn
+        # quote: >
+          # Building a better working world
+        description: | # this will include new lines to allow paragraphs
+          - 参与某央企上市公司审计项目，参与共 12 份审计工作底稿的编制，处理函证业务，协助评估客户往来项目等；
+          - 对客户部分分公司的部分项目进行信贷审阅，对所涉及利益主体财报进行分析，审查项目风险；并与被审计单位项目经理进行沟通，确认业务信息与执行情况；
+          - 通过与被审计单位利益相关方人员进行沟通，确认函证信息，制作询证函 30 余封，并前往第三方机构进行面函，协助函证业务顺利完成；
+          - 使用 <mark>Python</mark> 进行数据清洗，对 Excel 表进行自动化拆分整合，并归档至指定文件夹；调用之前开发的 OCR 程序，实现将图片版 PDF 文件中的数据批量提取至 Excel 表，协助对客户往来项目进行测算。
+
+      - layout: top # left
+        border: weak
+        title: 容诚会计师事务所（特殊普通合伙）
+        sub_title: 审计助理 | 北京审计一部
+        caption: 2021.08 - 2021.09
+        link: https://www.rsm.global/china
+        # quote: >
+          # Integrity, people-oriented, cooperation and sharing, efficiency priority, fairness
+        description: | # this will include new lines to allow paragraphs
+          - 参与 IPO 项目组，主要负责核对往来项目，核对公司的原始凭证和记账凭证；
+          - 计算公司内部财务报表准确性，向客户提供修改建议并补全所需的材料，协助经理完成财报审计业务；
+          - 通过使用 <mark>Python</mark> 及 Excel 插件解决繁琐重复性工作，推进办公自动化，提高办公效率，解决具体问题包括：
+            - 从互联网爬取目标企业公开财务数据，并自动进行相关财务指标计算；
+            - 编写自动化 OCR 程序，实现文件特定内容批量提取，并与 Excel 中的乱序文件协议编号进行匹配，进行合同凭证编号填充。
+
+      - layout: top # left
+        title: 宏利金融
+        sub_title: 极光计划实习生
+        caption: 2021.07 - 2021.08
+        link: https://www.manulife.com.hk/zh-cn/individual.html
+        # quote: >
+          # Decisions made easier. Lives made better.
+        description: | # this will include new lines to allow paragraphs
+          - 参与设计保险产品，对项目任务分工，为制定保险合同基本条款提供方案；
+          - 比较海内外各地保险政策异同及优缺点，为保险产品设计提供理论依据；
+          - 了解商业保险基本结构与运行逻辑，了解海内外保险发展历史与发展特点。
+
+
+  - title: 项目经历 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: OCR-Pro
+        link: github.com/Rimbaud-Lee/OCR_Pro
+        # link_text: Link Text
+        additional_links:
+          - title: Rimbaud-Lee/OCR_Pro
+            icon: fab fa-github
+            url: github.com/Rimbaud-Lee/OCR_Pro
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          OCR-pro 是一个用 <mark>Python</mark> 编写的实用向脚本程序，用于对图片版 PDF 进行批量化的局部 OCR 识别，并创建 Excel 表格，将所识别内容进行分组和填充。
+        description: | # this will include new lines to allow paragraphs
+          该脚本程序使用 <mark>Python</mark> 语言编写，不仅是因为 <mark>Python</mark> 语法简单以及程序逻辑清晰，更是因为它有很多的第三方库可供调用，以促成程序的实现。比如 <mark>PyMuPDF</mark> 库可用于将图像 PDF 转换为图片格式，<mark>PIL</mark> 库可以实现图片的灰度化，<mark>OpenCV</mark> 可对图片进行特定区域裁剪，<mark>PyTesseract</mark> 库可用于文本识别等。
+
+      - layout: top-middle
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 个人主页 - 邓小闲的小楼
+        link: https://rimbaud-lee.github.io/
+        # link_text: Link Text
+        additional_links:
+          - title: Rimbaud-Lee/Rimbaud-Lee.github.io
+            icon: fab fa-github
+            url: github.com/Rimbaud-Lee/Rimbaud-Lee.github.io
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          一个精美的静态个人主页网站。由 <mark>Hexo</mark> 和 <mark>GitHub Page</mark> 提供框架。
+        description: | # this will include new lines to allow paragraphs
+          - 将 <mark>Github</mark> 作为网站部署与代码托管平台，通过基于 <mark>Node.js</mark> 的 <mark>Hexo</mark> 框架搭建网站；
+          - 将 <mark>LeanCloud</mark>、<mark>MongoDB</mark> 作为后端管理平台，进行数据整理与网站维护；
+          - 主页不定期上传分享学习笔记与技术文章，撰写技术类文章十余篇。
+
+
+  - title: 学生工作 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title: 东北财经大学“母校行”志愿活动
+        sub_title: 志愿组成员
+        caption: 2019.11 - 2020.03
+        # quote: >
+          # Building a better working world
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+          - “高中母校行”志愿活动是由东北财经大学校学生会主办，以探望母校、宣传东北财经大学为目的的主题志愿活动；
+          - 协同 5 人团队完成宣讲工作，主要工作为制作宣讲 PPT ，撰写宣讲稿件；
+          - 活动吸引逾 1000 名同学参加。
+
+      - layout: left
+        title: 东北财经大学 Showtime 网站
+        sub_title: 网络宣传部干事
+        caption: 2019.09 - 2020.07
+        # quote: >
+          # Building a better working world
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+          - 主要工作为执行 Showtime 网站的宣传媒体的运营工作；
+          - 撰写公众号文章十余篇，总阅读量 2000 余次；
+          - 线下与校团委沟通，促成 Showtime 网站面向全校师生的信息技术系列公益讲座的成功举行，讲座逾 200 名师生参与。
+
+      - layout: left
+        title: 东北财经大学尖山书社
+        sub_title: 策划部干事
+        caption: 2019.09 - 2020.06
+        # quote: >
+          # Building a better working world
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          - 主要工作为策划与管理“书友会”的场地运营、物资配给等后勤工作；
+          - 参与策划“书友会”活动三场，通过与校团委沟通协调，取得活动场地使用权，促成“书友会”的圆满举办。
+
+      - layout: left
+        title: 东北财经大学乒乓球协会
+        sub_title: 组织部干事
+        caption: 2019.09 - 2020.06
+        # quote: >
+          # Building a better working world
+        description: | # this will include new lines to allow paragraphs
+          - 曾多次为东财乒协主办的校级比赛组织后勤工作；
+          - 曾为两场校级乒乓球比赛、一场校际联谊赛组织后勤工作，促成比赛的圆满举办，总参与人数 100 余名。
+
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      离开了书桌和电脑，我大部分时间都在户外运动，比如打打乒乓球、骑骑公路车啥的；也会挤出些时间写字、看电影、读书。我喜欢米芾，喜欢枪花，喜欢罗伯特·德尼罗，喜欢马丁·斯科塞斯，喜欢一切有意思的东西。
+      
+      我也会作为 Up 主在 Bilibili 上上传视频，主要是将 Youtube 上的关于经典电影与伟大演员的视频，通过自行听译添加中英文字幕并校对时间轴的方式转载到 B 站上。截至目前，视频号总浏览量已逾 20 万次。如果您也同样喜欢经典电影，喜欢伟大演员，可以点一下[这里](https://space.bilibili.com/475361336)。
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      戳戳[这里](https://rimbaud-lee.github.io/resume_en/)可以看我的英文简历。
+
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
