@@ -6,7 +6,7 @@ favicon: images/favicon.ico # Directory of your favicon (eg. images/favicon.ico)
 version: 2
 
 # Personal info
-name: 李朗
+name: \**李朗**
 title: 东北财经大学
 email: rimbaud-lee@foxmail.com
 # email_title: Email (Email title override)
@@ -49,20 +49,20 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: 关于我 # (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   大家好，我叫李朗，是一个阳光开朗、随和向上的大男孩。就读于东北财经大学会计学专业，大三在读。目前着手于时间序列预测和图挖掘方向的科研。
 
   在学习和工作生活中，我拥有突出的沟通及人际交往能力，具备高度的责任感以及进取心。同时，我对知识充满了好奇心，因为对新知识的学习可以让自己感到充实；在新的环境中，相对于挑战，我更多看到的是机会。
 
-  - *GPA: 3.61*
-  - *ACCA: 4/13*
-  - *CET-6: 533*
-  - *<mark>MS Office</mark>, <mark>Python</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>C#</mark>*
-  - *机器学习, 神经网络, 时序预测, 图挖掘*
-  - *IELT: 准备中...*
-  - *GMAT: 准备中...*
+  - *GPA：3.61*
+  - *ACCA：4/13*
+  - *CET-6：533*
+  - *<mark>MS Office</mark>，<mark>Python</mark>，<mark>MySQL</mark>，<mark>MongoDB</mark>，<mark>C#</mark>*
+  - *机器学习，神经网络，时序预测，图挖掘*
+  - *IELT：准备中...*
+  - *GMAT：准备中...*
 
 
 content:
