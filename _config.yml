@@ -91,6 +91,19 @@ content:
     content:
       - layout: top # left
         border: weak  
+        title: 德勤管理咨询（上海）有限公司
+        sub_title: 管理咨询实习生 | 北京核心业务运营组
+        caption: 2022.06 - 2022.09
+        link: https://www2.deloitte.com/cn
+        # quote: >
+          # Building a better working world
+        description: | # this will include new lines to allow paragraphs
+          - 参与某外资车企数字化转型项目，主要负责售后服务业务场景的进销存数据分析；
+          - 在 Amazon Athena 等数据库交互平台，结合业务逻辑编写 <mark>SQL</mark> 代码，对客户后台数据进行分析，识别特定业务场景的异常数据，记录业务处理步骤，事务代码，关键输入数据及输出结果，并向客户反馈数据探索成果，协助项目交付；
+          - 面向内部团队，调研常用后端数据库系统信息，并编写介绍文档，提升办公效率；参与编写本地数据仓库迁移的接口文档共 9 份，结合业务逻辑制作 PPT，翻译技术文档、会议纪要共 40 余份，并同步整理至 Confluence 和 Jira 敏捷项目管理平台。
+
+      - layout: top # left
+        border: weak  
         title: 安永华明会计师事务所（特殊普通合伙）
         sub_title: 审计实习生 | 北京金融服务部
         caption: 2022.01 - 2022.03
@@ -134,6 +147,25 @@ content:
   - title: 项目经历 # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 基于神经关系推理（NRI）模型的股票关系学习与价格预测
+        # link: 
+        # link_text: Link Text
+        # additional_links:
+        #   - title: Rimbaud-Lee/
+        #     icon: fab fa-github
+        #     url: github.com/Rimbaud-Lee/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          通过图神经网络模型实现股价预测
+        description: | # this will include new lines to allow paragraphs
+          - 以基于 <mark>VAE</mark> 结构的 <mark>NRI</mark> 模型作为基础模型，将公开股票数据中各股票的相互关系进行图表示，捕获动态关系；
+          - 结合 <mark>AD-GCL</mark> 模型，在神经网络中添加扰动结构，以防止模型过拟合，提升图神经网络泛化性能。
+
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
