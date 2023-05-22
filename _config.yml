@@ -57,7 +57,7 @@ about_content: | # this will include new lines to allow paragraphs
   在学习和工作生活中，我拥有突出的沟通及人际交往能力，具备高度的责任感以及进取心。同时，我对知识充满了好奇心，因为对新知识的学习可以让自己感到充实；在新的环境中，相对于挑战，我更多看到的是机会。
 
   - *GPA：3.71*
-  - *ACCA：4/13*
+  - *ACCA：4 / 13*
   - *CET-6：533*
   - *<mark>MS Office</mark>，<mark>Python</mark>，<mark>MySQL</mark>，<mark>MongoDB</mark>，<mark>C#</mark>*
   - *机器学习，神经网络，时序预测，图挖掘*
@@ -78,9 +78,9 @@ content:
           # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           在大学期间，我打下了扎实的经济与会计学基础，获得了丰富的实习经历与学生工作经验，以及较强的数据分析能力以及数理与量化编程能力，可以熟练使用 <mark>Python</mark>、<mark>SPSS</mark> 等编程及数据处理工具。在大学生活中，我也逐渐学习了如何平衡工作和生活，因此我也很享受我的大学时光。
-          
-          - 荣誉：东北财经大学校级三等奖奖学金。
-          - 专业课程：
+          - **GPA：**87.1 / 100
+          - **荣誉：**东北财经大学校级三等奖奖学金。
+          - **专业课程：**
             - *审计学  -  98*
             - *资本市场与会计  -  90*
             - *商务统计  -  92*
