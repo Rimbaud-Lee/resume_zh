@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   在学习和工作生活中，我拥有突出的沟通及人际交往能力，具备高度的责任感以及进取心。同时，我对知识充满了好奇心，因为对新知识的学习可以让自己感到充实；在新的环境中，相对于挑战，我更多看到的是机会。
 
-  - *GPA：3.7*
+  - *GPA：3.71*
   - *ACCA：4/13*
   - *CET-6：533*
   - *<mark>MS Office</mark>，<mark>Python</mark>，<mark>MySQL</mark>，<mark>MongoDB</mark>，<mark>C#</mark>*
@@ -91,9 +91,24 @@ content:
     content:
       - layout: top # left
         border: weak  
+        title: 申万宏源证券承销保荐有限责任公司
+        sub_title: 投行实习生 | 普惠金融京津冀业务部
+        caption: 2023.02 - 2023.05，西宁
+        link: http://www.swhygh.com/
+        # quote: >
+          # Building a better working world
+        description: | # this will include new lines to allow paragraphs
+          - **参与新三板挂牌项目——生态环境治理业**：参与法律、财务部分尽职调查，协助完成公开转让说明书财务数据部分的撰写与复核；
+          - 法律部分：核查公司体外资金循环，判断关联方风险，对被核查人员相关流水进行访谈，了解风险因素，形成外围流水核查报告；对挂牌公司及相关人员的诉讼仲裁、监管处罚等情况进行调查梳理；完成对公司董监高劳动合同、竞业禁止、征信报告等原始资料的核查整理，并制作相关控制表；
+          - 财务部分：对报告期内相关交易的合同收据等进行一致性核查；处理函证业务，通过调查公司原始合同或与项目经办人员沟通，解释函证差异；
+          - 行业部分：对公司主要客户供应商进行实地访谈考察，整理访谈记录，审查业务合规性；
+          - 对共 13 家已挂牌持续督导企业进行年度定期核查，包括年报数据审阅、相关主体失信惩戒查询等。
+
+      - layout: top # left
+        border: weak  
         title: 德勤管理咨询（上海）有限公司
-        sub_title: 管理咨询实习生 | 北京核心业务运营组
-        caption: 2022.06 - 2022.09
+        sub_title: 管理咨询实习生 | 核心业务运营事业群
+        caption: 2022.06 - 2022.09，北京
         link: https://www2.deloitte.com/cn
         # quote: >
           # Building a better working world
@@ -105,8 +120,8 @@ content:
       - layout: top # left
         border: weak  
         title: 安永华明会计师事务所（特殊普通合伙）
-        sub_title: 审计实习生 | 北京金融服务部
-        caption: 2022.01 - 2022.03
+        sub_title: 审计实习生 | 金融服务部
+        caption: 2022.01 - 2022.03，北京
         link: https://www.ey.com/zh_cn
         # quote: >
           # Building a better working world
@@ -120,7 +135,7 @@ content:
         border: weak
         title: 容诚会计师事务所（特殊普通合伙）
         sub_title: 审计助理 | 北京审计一部
-        caption: 2021.08 - 2021.09
+        caption: 2021.08 - 2021.09，北京
         link: https://www.rsm.global/china
         # quote: >
           # Integrity, people-oriented, cooperation and sharing, efficiency priority, fairness
@@ -134,7 +149,7 @@ content:
       - layout: top # left
         title: 宏利金融
         sub_title: 极光计划实习生
-        caption: 2021.07 - 2021.08
+        caption: 2021.07 - 2021.08，远程
         link: https://www.manulife.com.hk/zh-cn/individual.html
         # quote: >
           # Decisions made easier. Lives made better.
